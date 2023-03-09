@@ -1,0 +1,32 @@
+body{
+    display: flex;
+}
+.parallax{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20cqb;
+    font-size: x-large;
+    color: black;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+    text-decoration: dashed;
+}
+
+.Courses{
+    
+    color: #777;
+    background-color: white;
+    text-align: center;
+    
+}
+div.polaroid{
+    
+        float: left;
+        padding-left: 10px;
+        padding-top: 5px;
+        width: 3o vw;
+        height: 400px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+    }
