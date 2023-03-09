@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #071b52ee;
+  height: 7vh;
+  width: 100%;
+  position: sticky;
+}
+ul {
+  display: flex;
+  float: right;
+}
+li {
+  list-style-type: none;
+  padding: 12px 10px;
+}
+nav ul li a {
+  display: inline-block;
+  color: rgb(143, 201, 51);
+  text-decoration: none;
+  flex-wrap: wrap;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: yellow;
+}
+.btn {
+  background-color: rgb(143, 201, 51);
+  color: white;
+  border-radius: 10px;
+  height: 27px;
+  width: 85px;
+  border: 1px solid black;
+  cursor: pointer;
+  animation-name: registercolorchange;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+.btn:hover {
+  height: 30px;
+  width: 90px;
+}
+@keyframes registercolorchange {
+  from {
+    background-color: rgb(143, 201, 51);
+  }
+  to {
+    background-color: yellow;
+    color: #071b52ee;
+  }
+}
+.logo {
+  height: 6vh;
+  margin: 3px 0px;
+}
+.description {
+  height: 89vh;
+  width: 100%;
+}
+.chat{
+    float: right;
+    margin: 0px 0px 5px 0px;
+}
+.foot {
+  height: 4vh;
+  width: 100%;
+  background-color: #071b52ee;
+}
+.foot h4 {
+  color: white;
+}
