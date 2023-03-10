@@ -18,47 +18,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.parallax2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding-bottom: 20px;
-  font-size: x-large;
-  color: rgb(46, 152, 176);
-  text-align: center;
-  text-align: justify;
-  text-decoration: dashed;
-  border-color: aliceblue;
-  background-color: aliceblue;
-}
-
-.parallax2 {
-  background-image: url(work3.jpeg);
-  height: 60vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.parallax3 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding-bottom: 20px;
-  font-size: x-large;
-  color: rgb(110, 70, 39);
-  text-align: center;
-  text-align: justify;
-  text-decoration: dashed;
-  border-color: aliceblue;
-  background-color: aliceblue;
-}
-.parallax3 {
-  background-image: url(school4.jpg);
-  height: 80vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 div.Courses {
   color: rgb(218, 241, 9);
   background-color: #071b52ee;
@@ -68,8 +27,11 @@ div.Courses {
 .coursedes {
   display: flex;
 }
+.title{
+  justify-content: center;
+  text-align: center;
+}
 div.polaroid {
-  padding-top: 5px;
   width: 33vw;
   height: 45vh;
   background-color: white;
@@ -78,7 +40,6 @@ div.polaroid {
   border-radius: 15px;
 }
 div.polaroid1 {
-  padding-top: 5px;
   width: 33vw;
   height: 45vh;
   background-color: white;
@@ -87,7 +48,6 @@ div.polaroid1 {
   border-radius: 15px;
 }
 div.polaroid2 {
-  padding-top: 5px;
   width: 33vw;
   height: 45vh;
   background-color: white;
@@ -96,14 +56,17 @@ div.polaroid2 {
   border-radius: 15px;
 }
 .img1 {
-  width: 60%;
-  
+  width: 95%;
+  margin: 0px 10px;
 }
 .img2 {
-  width: 60%;
+  width: 95%;
+  margin: 0px 13px;
 }
 .img3 {
-  width: 53%;
+  width: 95%;
+  height:67%;
+  margin: 0px 10px;
 }
 div.container.p {
   text-align: center;
@@ -113,21 +76,51 @@ div.container.p {
 .container.h2 {
   text-align: center;
 }
+.outview{
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  background-color:#071b52ee;
+}
+.box{
+  color:aliceblue;
+  font-size: x-large;
+  font-weight: bold;
+  width: 50%;
+}
 .Vision {
   transform-origin: bottom;
-  border: 5px;
-  border-style: double;
-  border-width: 100%;
   font-weight: bolder;
+  font-size: x-large;
   border-color: aliceblue;
-  background-color: #071b52ee;
-  color: aliceblue;
+  background-color: white;
+  color:black;
   height: 15vh;
 }
 .visiontitle {
   justify-content: center;
   text-align: center;
   font-weight: bolder;
-  font-size: large;
-  color: rgb(218, 241, 9);
+  font-size: xx-large;
+  color: #071b52ee;
+}
+.Visiondes{
+  display: flex;
+  background-color: black;
+  height:20vh;
+  width: 100%;
+}
+.Visiondes{
+  display: flex;
+  color:#071b52ee;
+}
+.visionbtn{
+  border-radius: 10px;
+  height: 50px;
+  width: 70px;
+  color: rgb(0, 132, 255);
+}
+.visionimg{
+  margin: 0px 0px 50px 70%;
+
 }
