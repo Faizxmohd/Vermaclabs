@@ -70,7 +70,7 @@ nav ul li a:hover {
     margin: 0px 0px 5px 0px;
 }
 .foot {
-  height:18vh;
+  height:20vh;
   width: 100%;
   background-color: #071b52ee;
 }
@@ -81,7 +81,7 @@ nav ul li a:hover {
 }
 .footdesc{
   display: flex;
-  margin: 0px 495px;
+  margin: 0px 500px;
 }
 .terms{
   text-align: center;

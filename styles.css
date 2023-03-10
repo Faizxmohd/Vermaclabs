@@ -33,7 +33,7 @@ div.Courses {
 }
 div.polaroid {
   width: 33vw;
-  height: 45vh;
+  height: 75vh;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
@@ -41,7 +41,7 @@ div.polaroid {
 }
 div.polaroid1 {
   width: 33vw;
-  height: 45vh;
+  height: 75vh;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
@@ -49,7 +49,7 @@ div.polaroid1 {
 }
 div.polaroid2 {
   width: 33vw;
-  height: 45vh;
+  height: 75vh;
   background-color: white;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 30px;
@@ -101,14 +101,10 @@ div.container.p {
   }
 .reviews{
   transform-origin: bottom;
-  border: 5px;
-  border-style: double;
-  border-width: 100%;
-  font-weight: bolder;
+  font-weight:bolder;
   border-color: aliceblue;
-  background-color: #071b52ee;
-  color: aliceblue;
-  height: 15vh;
+  color: rgb(34, 34, 84);
+  height: 20vh;
 
 }
 .Vision {
@@ -125,7 +121,7 @@ div.container.p {
   text-align: center;
   font-weight: bolder;
   font-size: xx-large;
-  color: #071b52ee;
+  color: #1e2f5bee;
 }
 .Visiondes{
   display: flex;
@@ -146,4 +142,18 @@ div.container.p {
 .visionimg{
   margin: 0px 0px 50px 70%;
 
+}
+.About{
+  justify-content: center;
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  color: rgb(143, 201, 51);
+}
+.aboutdesc{
+  transform-origin: bottom;
+  font-weight: bolder;
+  font-size: x-large;
+  color:rgb(21, 20, 34);
+  height: 15vh;
 }
