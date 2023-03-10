@@ -19,8 +19,41 @@
   background-size: cover;
 }
 .parallax2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+  font-size: x-large;
+  color: rgb(46, 152, 176);
+  text-align: center;
+  text-align: justify;
+  text-decoration: dashed;
+  border-color: aliceblue;
+  background-color: aliceblue;
+}
+
+.parallax2 {
   background-image: url(work3.jpeg);
-  height: 85vh;
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+  font-size: x-large;
+  color: rgb(110, 70, 39);
+  text-align: center;
+  text-align: justify;
+  text-decoration: dashed;
+  border-color: aliceblue;
+  background-color: aliceblue;
+}
+.parallax3 {
+  background-image: url(school4.jpg);
+  height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +74,8 @@ div.polaroid {
   height: 45vh;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
 }
 div.polaroid1 {
   padding-top: 5px;
@@ -49,7 +83,8 @@ div.polaroid1 {
   height: 45vh;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
 }
 div.polaroid2 {
   padding-top: 5px;
@@ -57,16 +92,18 @@ div.polaroid2 {
   height: 45vh;
   background-color: white;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
 }
 .img1 {
-  width: 90%;
+  width: 60%;
+  
 }
 .img2 {
-  width: 90%;
+  width: 60%;
 }
 .img3 {
-  width: 85%;
+  width: 53%;
 }
 div.container.p {
   text-align: center;
@@ -85,7 +122,7 @@ div.container.p {
   border-color: aliceblue;
   background-color: #071b52ee;
   color: aliceblue;
-  height: 13vh;
+  height: 15vh;
 }
 .visiontitle {
   justify-content: center;

@@ -14,7 +14,7 @@ ul {
 }
 li {
   list-style-type: none;
-  padding: 17px 10px;
+  padding: 12px 10px;
 }
 nav ul li a {
   display: inline-block;
@@ -24,6 +24,7 @@ nav ul li a {
   font-size:x-large;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
+  
 }
 nav ul li a:hover {
   color: yellow;
@@ -41,6 +42,7 @@ nav ul li a:hover {
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   text-align: center;
+  
 }
 .btn:hover {
   height: 40px;
