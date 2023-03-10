@@ -1,98 +1,96 @@
-
-.parallax{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-bottom: 20cqb;
-    font-size: x-large;
-    color: black;
-    text-align: center;
-    padding: 50px 80px;
-    text-align: justify;
-    text-decoration: dashed;
-    border-color: aliceblue;
-    background-color: aliceblue;
-    border-radius: 30%;
+.parallax {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+  font-size: x-large;
+  color: rgb(14, 11, 11);
+  text-align: center;
+  text-align: justify;
+  text-decoration: dashed;
+  border-color: aliceblue;
+  background-color: aliceblue;
 }
-
-div.Courses{
-    
-    color: #777;
-    background-color: white;
-    text-align: center;
-    display: flex;
-    
+.parallax {
+  background-image: url(work.jpeg);
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-div.row{
-    display: flex;
-    
+.parallax2 {
+  background-image: url(work3.jpeg);
+  height: 85vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-div.polaroid{
-    
-        
-        width: auto;
-        padding: 5px;   
-        padding-left: 10px;
-        padding-top: 5px;
-        width: 32%;
-        height: 400px;
-        background-color: white;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-bottom: 25px;
-        
-        
-    }
-div.row1{
-        display: flex;
-        
-    }
-    
-div.polaroid1{
-         
-        width: auto;
-        padding: 5px;   
-        padding-left: 10px;
-        padding-top: 5px;
-        width: 32%;
-        height: 400px;
-        background-color: white;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin-bottom: 25px;
-       
-        
+div.Courses {
+  color: rgb(218, 241, 9);
+  background-color: #071b52ee;
+  justify-content: center;
+  text-align: center;
 }
-div.row2{
-    display: flex;
-}
-
-div.polaroid2{
-      
-    width: auto;
-    padding: 5px;   
-    padding-left: 10px;
-    padding-top: 5px;
-    width: 32%;
-    height: 400px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-   
-    
-}
-
-div.container {
-        text-align: center;
-        padding: 10px 20px;
-}
-
-
-.Vision{
+.coursedes {
   display: flex;
+}
+div.polaroid {
+  padding-top: 5px;
+  width: 33vw;
+  height: 45vh;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.polaroid1 {
+  padding-top: 5px;
+  width: 33vw;
+  height: 45vh;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+div.polaroid2 {
+  padding-top: 5px;
+  width: 33vw;
+  height: 45vh;
+  background-color: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+.img1 {
+  width: 90%;
+}
+.img2 {
+  width: 90%;
+}
+.img3 {
+  width: 85%;
+}
+div.container.p {
+  text-align: center;
+  padding: 10px 20px;
+  width: 32%;
+}
+.container.h2 {
+  text-align: center;
+}
+.Vision {
   transform-origin: bottom;
-    border: 5px;
-    border-style: double;
-    border-width: 100%;
-    font-weight: bolder;
-    border-color: aliceblue;
-    background-color:#071b52ee;
-    color: aliceblue;
+  border: 5px;
+  border-style: double;
+  border-width: 100%;
+  font-weight: bolder;
+  border-color: aliceblue;
+  background-color: #071b52ee;
+  color: aliceblue;
+  height: 13vh;
+}
+.visiontitle {
+  justify-content: center;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  color: rgb(218, 241, 9);
 }
