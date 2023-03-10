@@ -95,6 +95,16 @@ div.polaroid2 {
   margin-bottom: 30px;
   border-radius: 15px;
 }
+div.polaroid3{
+  padding-top: 5px;
+  width: 33vw;
+  height: 45vh;
+  color: rgb(51, 79, 69);
+  background-color: rgb(187, 210, 231);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
 .img1 {
   width: 60%;
   
@@ -112,6 +122,17 @@ div.container.p {
 }
 .container.h2 {
   text-align: center;
+}
+.reviews{
+  transform-origin: bottom;
+  border: 5px;
+  border-style: double;
+  border-width: 100%;
+  font-weight: bolder;
+  border-color: aliceblue;
+  background-color: #071b52ee;
+  color: aliceblue;
+  height: 15vh;
 }
 .Vision {
   transform-origin: bottom;
