@@ -6,7 +6,7 @@
   background-color: #071b52ee;
   height: 7vh;
   width: 100%;
-  position: sticky;
+  position: fixed;
 }
 ul {
   display: flex;
@@ -22,7 +22,7 @@ nav ul li a {
   text-decoration: none;
   flex-wrap: wrap;
   font-size:x-large;
-  font-family: "Courier New", Courier, monospace;
+  font-family:'Times New Roman', Times, serif;
   font-weight: bold;
   
 }
@@ -70,10 +70,44 @@ nav ul li a:hover {
     margin: 0px 0px 5px 0px;
 }
 .foot {
-  height: 4vh;
+  height:18vh;
   width: 100%;
   background-color: #071b52ee;
 }
 .foot h4 {
+  text-align: center;
   color: white;
+  font-size: large;
+}
+.footdesc{
+  display: flex;
+  margin: 0px 495px;
+}
+.terms{
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  margin: 0px 35px;
+}
+.privacy{
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+.footdes i{
+  color: white;
+  font-size:xx-large;
+  margin: 0px 30px;
+}
+.footdes i:hover{
+  color: rgb(143, 201, 51);
+}
+.icons{
+  justify-content: center;
+  text-align: center;
+}
+.footimg{
+  width:265px;
+  height:45px;
+  padding: 0px 535px;
 }
