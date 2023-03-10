@@ -1,6 +1,4 @@
-body{
-    display: flex;
-}
+
 .parallax{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 20cqb;
@@ -10,23 +8,91 @@ body{
     padding: 50px 80px;
     text-align: justify;
     text-decoration: dashed;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    border-radius: 30%;
 }
 
-.Courses{
+div.Courses{
     
     color: #777;
     background-color: white;
     text-align: center;
+    display: flex;
     
 }
+div.row{
+    display: flex;
+    
+}
+
 div.polaroid{
     
-        float: left;
+        
+        width: auto;
+        padding: 5px;   
         padding-left: 10px;
         padding-top: 5px;
-        width: 3o vw;
+        width: 32%;
         height: 400px;
         background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 25px;
+        
+        
     }
+div.row1{
+        display: flex;
+        
+    }
+    
+div.polaroid1{
+         
+        width: auto;
+        padding: 5px;   
+        padding-left: 10px;
+        padding-top: 5px;
+        width: 32%;
+        height: 400px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+       
+        
+}
+div.row2{
+    display: flex;
+}
+
+div.polaroid2{
+      
+    width: auto;
+    padding: 5px;   
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 32%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+   
+    
+}
+
+div.container {
+        text-align: center;
+        padding: 10px 20px;
+}
+
+
+.Vision{
+  display: flex;
+  transform-origin: bottom;
+    border: 5px;
+    border-style: double;
+    border-width: 100%;
+    font-weight: bolder;
+    border-color: aliceblue;
+    background-color:#071b52ee;
+    color: aliceblue;
+}
