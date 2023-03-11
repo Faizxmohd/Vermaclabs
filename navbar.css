@@ -4,7 +4,7 @@
 }
 .navbar {
   background-color: #071b52ee;
-  height: 7vh;
+  height: 8vh;
   width: 100%;
   position: fixed;
 }
@@ -33,8 +33,8 @@ nav ul li a:hover {
   background-color: rgb(143, 201, 51);
   color: white;
   border-radius: 10px;
-  height: 33px;
-  width: 98px;
+  height: 30px;
+  width: 90px;
   border: 1px solid black;
   cursor: pointer;
   animation-name: registercolorchange;
@@ -42,6 +42,7 @@ nav ul li a:hover {
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   text-align: center;
+  padding-bottom: 10px;
   
 }
 .btn:hover {
@@ -111,3 +112,22 @@ nav ul li a:hover {
   height:45px;
   padding: 0px 535px;
 }
+
+
+
+
+/* <br />
+<div class="visiondes">
+  <div class="visiondesc">
+    <pre>
+          Let us helps
+            Finding Your Right Courses
+    </pre>
+  <div class="visionbtn">
+      <button class="visionbtn">Get Started</button>
+  </div>
+</div>
+  <div class="visionimg">
+    <img src="visiondes.jpg" alt="visiondes" width="450px" height="400px" />
+  </div>
+</div> */

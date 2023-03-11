@@ -123,25 +123,38 @@ div.container.p {
   font-size: xx-large;
   color: #1e2f5bee;
 }
-.Visiondes{
-  display: flex;
-  background-color: black;
-  height:20vh;
-  width: 100%;
-}
-.Visiondes{
-  display: flex;
-  color:#071b52ee;
-}
-.visionbtn{
-  border-radius: 10px;
-  height: 50px;
-  width: 70px;
-  color: rgb(0, 132, 255);
-}
-.visionimg{
-  margin: 0px 0px 50px 70%;
+.visimg{
+  
+    width: 38vw;
+    height: 42vh;
+    float: right;
+    padding: 0 0 0 26vh;
 
+}
+.visdown{
+  display: flex;
+  margin: 100px 0px;
+}
+.para pre{
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(34, 34, 84);
+} 
+.para{
+  padding: 73px 0px 0px 50px;
+}
+.visbtn{
+ margin: 100px 0px ;
+ margin-left: 45px;
+
+}
+.visbtn1{
+  height: 9vh;
+  width: 9vw;
+  border-radius: 15px;
+  background-color: rgb(34, 34, 84);
+  color: white;
 }
 .About{
   justify-content: center;
